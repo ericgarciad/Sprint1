@@ -63,3 +63,8 @@ let i = 0;
 for (i in nomArray){
     console.log(nomArray[i]);
 }
+
+let prova = [1,2,3,4,5,8];
+
+let provaView = prova.map(x => x*2);
+console.log(provaView);
